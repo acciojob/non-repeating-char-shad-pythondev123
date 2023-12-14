@@ -10,7 +10,7 @@ function firstNonRepeatedChar(str) {
 			myMap.set(str[i],1);
 		}
 	}
-	for(const values of myMap.values()){
+	for(const value of myMap.values()){
 		if(value<=1) ans= value;
 	}
 	return ans;
