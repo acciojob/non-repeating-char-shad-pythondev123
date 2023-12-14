@@ -10,10 +10,10 @@ function firstNonRepeatedChar(str) {
 			myMap.set(str[i],1);
 		}
 	}
-	for(const value of myMap.values()){
-		if(value<=1) ans= value;
+	for(const key of myMap.keys()){
+		if(key.get()<=1) ans= key;
 	}
 	return ans;
 }
-const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
+// const input = prompt("Enter a string");
+// alert(firstNonRepeatedChar(input)); 
