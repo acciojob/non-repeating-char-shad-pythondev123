@@ -11,7 +11,7 @@ function firstNonRepeatedChar(str) {
 		}
 	}
 	for(const values of myMap.values()){
-		if(value<==1) ans= value;
+		if(value<=1) ans= value;
 	}
 	return ans;
 }
